@@ -10,6 +10,17 @@
 	<script src="js/jquery.js"></script>
 	<script src="_assets/js/index.js"></script>
 	<script src="js/jquery.mobile-1.4.0.min.js"></script>
+
+		<!-- FontAwesome - http://fortawesome.github.io/Font-Awesome/ -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+		<!-- nativeDroid core CSS -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.css" />
+		<!-- nativeDroid: Light/Dark -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.light.css"  id='jQMnDTheme' />
+		<!-- nativeDroid: Color Schemes -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.color.green.css" id='jQMnDColor' />
+
+
 </head>
 <body>
 
@@ -22,7 +33,7 @@
 
 	<div role="main" class="ui-content">
 		<p>I'm first in the source order so I'm shown as the page.</p>
-		<p>View internal page called <a href="#bar">bar</a></p>
+		<p>View internal page called <a href="#bar" data-transition="flip" >bar</a></p>
 	</div><!-- /content -->
 
 	<div data-role="footer">
@@ -39,7 +50,7 @@
 
 	<div role="main" class="ui-content">
 		<p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>
-		<p><a href="#foo">Back to foo</a></p>
+		<p><a href="#foo" data-transition="flip">Back to foo</a></p>
 	</div><!-- /content -->
 
 	<div data-role="footer">
