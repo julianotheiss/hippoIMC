@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.godrixtheiss.hippoimc"
+    version   = "1.0.0">
+
+<name>Hippo IMC</name>
+
+<description>
+Aplicativo para calcular o Indice de Massa Corporal, o IMC.
+</description>
+
+<author href="https://facebook.com/fulano" email="exemplo@gmail.com">
+GodrixTheiss
+</author>
+    
+<icon src="icon.png" />
+    
+
+
+    
+<gap:platform name="android" />
+    
+    
+
+   
+
+</widget>
